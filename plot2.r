@@ -3,6 +3,7 @@
 
 source("getdata.R")
 
+dev.new()
 # We will use the clean dataset to generate graphs
 plot(energydata$Global_active_power ~ energydata$Datetime, 
      type = "l",
@@ -11,3 +12,4 @@ plot(energydata$Global_active_power ~ energydata$Datetime,
 
 dev.copy(png, file="plot2.png", width=480, height=480)
 dev.off()
+

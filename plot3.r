@@ -1,4 +1,4 @@
-# Read Data
+# Read Data.
 # Clean Data
 
 source("getdata.R")
